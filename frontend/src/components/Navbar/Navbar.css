@@ -13,7 +13,7 @@
     display:flex;
     list-style: none;
     gap: 20px;
-    color: #49557e;
+    color: #424242; /* Navbar Choices Text Color: Charcoal*/
     font-size: 18px;
 }
 
@@ -25,9 +25,9 @@
 
 .navbar button{
     background: transparent;
-    font-size: 16px;
-    color: #49557e;
-    border: 1px solid tomato;
+    font-size: 16px; 
+    color: #424242; /* Sign In Text Color Options: Charcoal*/
+    border: 1px solid #2E7D32; /* Primary Color: Sign In: Highlight Green*/
     padding: 10px 30px;
     border-radius: 50px;
     cursor: pointer;
@@ -35,12 +35,12 @@
 }
 
 .navbar button:hover{
-    background-color: #fff4f2;
+    background-color: #2e7d3233;
 }
 
 .navbar .active{
     padding-bottom: 2px;
-    border-bottom: 2px solid #49557e;
+    border-bottom: 2px solid #424242; /* Underline: Charcoal*/
 }
 
 .navbar li{
@@ -55,7 +55,7 @@
     position:absolute;
     min-width: 10px;
     min-height: 10px;
-    background-color: tomato;
+    background-color: #2E7D32; /* Primary Color: Dot: Shopping Cart Green*/
     border-radius: 5px;
     top: -8px;
     right: -8px;
